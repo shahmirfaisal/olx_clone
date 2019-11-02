@@ -1,0 +1,84 @@
+.CreateAd h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.CreateAd form {
+  width: 320px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.CreateAd form input {
+  width: 100%;
+  padding: 9px 20px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  border: 0.8px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.CreateAd form textarea {
+  width: 100%;
+  height: 150px;
+  padding: 9px 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 0.8px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.CreateAd form [type="file"] {
+  width: 100%;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  margin-bottom: 15px;
+  outline: none;
+  box-shadow: none;
+}
+
+.CreateAd form img {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+.CreateAd form h4 {
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.CreateAd form button {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  border-radius: 50px;
+  background-color: #f45a7f;
+  font-weight: 600;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  outline: none;
+  cursor: pointer;
+}
+
+.CreateAd p {
+  color: red;
+  font-weight: 600;
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media (max-width: 450px) {
+  .CreateAd form {
+    width: 90%;
+  }
+}

@@ -1,0 +1,20 @@
+.Profile h2 {
+  margin: 40px 0 70px 30px;
+}
+.Profile h3 {
+  font-weight: 600;
+  margin-left: 30px;
+}
+.Profile span {
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+@media (max-width: 400px) {
+  .Profile h3 {
+    margin-left: 10px;
+  }
+  .Profile span {
+    font-size: 0.9em;
+  }
+}

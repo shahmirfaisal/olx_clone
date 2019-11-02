@@ -1,0 +1,67 @@
+.SideDrawer {
+  width: 300px;
+  height: 100vh;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5000;
+  padding: 0 25px;
+  box-sizing: border-box;
+  transition: all 0.35s ease-in;
+}
+
+.SideDrawer h2 {
+  color: #f45a7f;
+}
+
+.SideDrawer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+}
+.SideDrawer ul li {
+  font-weight: 600;
+  opacity: 0.8;
+  margin-top: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.SideDrawer ul li:hover,
+.Link:hover {
+  color: #f45a7f;
+  font-weight: 700;
+}
+
+.Open {
+  transform: translateX(0);
+}
+.Close {
+  transform: translateX(-150%);
+}
+
+.SideDrawer i {
+  opacity: 0.6;
+  font-size: 1.3em;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.Link {
+  text-decoration: none;
+  color: black;
+}
+
+.Active {
+  color: #f45a7f;
+  font-weight: 700;
+}
+
+@media (max-width: 450px) {
+  .SideDrawer {
+    width: 250px;
+  }
+}

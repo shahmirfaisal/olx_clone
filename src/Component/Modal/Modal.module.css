@@ -1,0 +1,44 @@
+.Modal {
+  z-index: 2000;
+  width: 300px;
+  background-color: white;
+  position: fixed;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+}
+.Modal img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  height: 150px;
+}
+.Modal h4 {
+  font-weight: 600;
+}
+
+.Modal span {
+  font-weight: 400;
+}
+
+.Modal p {
+  font-size: 0.9em;
+}
+.Modal button {
+  border: none;
+  color: white;
+  background-color: #f45a7f;
+  font-size: 0.8em;
+  border-radius: 2px;
+  float: right;
+  outline: none;
+  cursor: pointer;
+  padding: 3px 8px;
+}
+@media (max-width: 450px) {
+  .Modal {
+    width: 80%;
+    font-size: 15px;
+  }
+}

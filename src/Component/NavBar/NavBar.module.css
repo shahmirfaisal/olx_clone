@@ -1,0 +1,23 @@
+.NavBar {
+  background-color: #f45a7f;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.NavBar h1 {
+  margin: 0 auto;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.NavBar i {
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.NavBar span {
+  font-size: 0.7em;
+  font-weight: 500;
+}
